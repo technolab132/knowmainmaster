@@ -27,6 +27,9 @@ hide_streamlit_style = """
 footer {visibility: hidden;}
 button[title="View fullscreen"] {visibility: hidden;}
 img {cursor: default !important;}
+._profileContainer_gzau3_53 {visibility: hidden}
+._viewerBadge_nim44_23 {visibility: hidden}
+.st-emotion-cache-zq5wmm {visibility: hidden}
 </style>
 """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
