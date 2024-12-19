@@ -30,6 +30,18 @@ img {cursor: default !important;}
 a[href="https://streamlit.io/cloud"] {visibility: hidden !important}
 ._profileContainer_gzau3_53 {visibility: hidden !important}
 .st-emotion-cache-zq5wmm {visibility: hidden !important}
+
+/* Custom footer */
+body::after {
+    content: '';
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    z-index: 9999;
+}
 </style>
 """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
